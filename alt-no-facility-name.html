@@ -5,14 +5,12 @@
   per Faisal's Q&A: naming the facility and its reopening requires
   the NOC/agreement to be in place first.
   If the NOC is secured before launch, publish index.html instead.
-  Generated 2026-09-06 by くろーどん[Cowork窓]
 ============================================================= -->
 
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="robots" content="noindex,nofollow"><!-- PREVIEW ONLY: remove before public launch -->
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>REVIVAL — Restoring Industry. Restoring Livelihoods. Restoring the Planet.</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,7 +60,8 @@
   /* hero */
   .hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding:150px 32px 60px;
     background:radial-gradient(ellipse 900px 500px at 84% 12%,rgba(182,147,90,.16),transparent 60%),radial-gradient(ellipse 700px 600px at -5% 92%,rgba(38,53,76,.1),transparent 60%),var(--washi);}
-  .hero-circles{position:absolute;right:-6%;top:4%;width:50vw;max-width:680px;opacity:.9;pointer-events:none;}
+  .hero-circles{position:absolute;right:0;top:6%;width:52vw;max-width:700px;pointer-events:none;filter:saturate(.88) contrast(1.02);}
+  @media(max-width:900px){.hero-circles{opacity:.2;right:-32%;top:0;width:70vw;}}
   .hero-inner{position:relative;max-width:var(--wrap);width:100%;margin:0 auto;z-index:2;}
   .hero .eyebrow{margin-bottom:22px;}
   .hero h1{font-size:clamp(32px,4.6vw,58px);line-height:1.14;letter-spacing:-.005em;max-width:900px;}
@@ -281,7 +280,12 @@
 <!-- HERO -->
 <section class="hero" id="top">
   <svg class="hero-circles" viewBox="0 0 600 600" fill="none">
-    <circle cx="230" cy="330" r="170" fill="#1b1a17" opacity="0.06"/>
+    <defs>
+      <clipPath id="heroCircleClip"><circle cx="230" cy="330" r="170"/></clipPath>
+    </defs>
+    <image href="assets/img/hero-circle.jpg" x="60" y="160" width="340" height="340"
+           preserveAspectRatio="xMidYMid slice" clip-path="url(#heroCircleClip)"/>
+    <circle cx="230" cy="330" r="170" fill="none" stroke="#1b1a17" stroke-opacity="0.14" stroke-width="1"/>
     <circle cx="400" cy="220" r="150" fill="none" stroke="#b6935a" stroke-width="1" stroke-dasharray="2 6" opacity="0.55"/>
   </svg>
   <div class="hero-inner">
