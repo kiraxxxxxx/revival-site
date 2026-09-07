@@ -131,8 +131,16 @@
   .dark .track-list div:nth-last-child(-n+1){border-bottom-color:rgba(243,238,226,.16);}
 
   /* leadership */
-  .lead-grid{display:grid;grid-template-columns:minmax(0,430px);gap:1px;background:rgba(27,26,23,.1);border:1px solid rgba(27,26,23,.1);margin-top:46px;}
-  @media(max-width:520px){.lead-grid{grid-template-columns:1fr;}}
+  .lead-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(27,26,23,.1);border:1px solid rgba(27,26,23,.1);margin-top:46px;}
+  @media(max-width:900px){.lead-grid{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:560px){.lead-grid{grid-template-columns:1fr;}}
+  .advisor-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 56px;margin-top:34px;}
+  @media(max-width:760px){.advisor-grid{grid-template-columns:1fr;}}
+  .advisor-grid>div{padding:13px 0;border-top:1px solid rgba(27,26,23,.12);}
+  .advisor-grid h6{font-family:var(--serif);font-size:14.5px;font-weight:500;margin-bottom:3px;}
+  .advisor-grid .aff{font-size:11.5px;color:var(--ink-40);font-weight:300;margin-bottom:3px;}
+  .advisor-grid .dut{font-size:12.5px;color:var(--ink-60);font-weight:300;}
+  .sub-head{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--rust);margin-top:56px;padding-bottom:12px;border-bottom:1px solid rgba(27,26,23,.14);}
   .lead-card{background:var(--washi);padding:28px 22px;}
   .lead-card .initial{width:48px;height:48px;border-radius:50%;background:var(--sumi);color:var(--washi);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:17px;margin-bottom:16px;}
   .lead-card.pending .initial{background:transparent;border:1px dashed var(--ink-40);color:var(--ink-40);}
@@ -468,22 +476,68 @@
     <div class="section-tag reveal">03 — PEOPLE</div>
     <div class="eyebrow reveal"><span class="num">参</span> Leadership &amp; Execution Capability</div>
     <h2 class="lede reveal">People invest in people before they invest in a concept.</h2>
-    <p class="body-copy reveal" style="margin-top:20px;">REVIVAL's leadership combines Bangladesh market knowledge, international business experience, Japanese relationships, investment capability, manufacturing operations and sustainability strategy.</p>
+    <p class="body-copy reveal" style="margin-top:20px;">Execution risk is usually the hardest thing to underwrite &mdash; production plans are easy to write and harder to deliver. REVIVAL is backed by a bench that spans four countries and combines government relations, blue-chip retail, industrial operations, trade finance and legal structuring. The people executing this plan have already run comparable mandates at Walmart, Disney, British American Tobacco, USAID and NTT.</p>
 
     <div class="lead-grid reveal">
       <div class="lead-card">
         <div class="initial">HF</div>
-        <div class="role">Founder &amp; CEO</div>
+        <div class="role">Founder &amp; CEO, REVIVAL Global Ltd</div>
         <h5>Huda Mohammed Faisal</h5>
-        <p>B.Arch, BUET · Master's in Heritage &amp; Environmental Design, Kyushu University. Founded REVIVAL from research at Kyushu University in 2018, inspired by Professor Muhammad Yunus's Three Zeros framework.</p>
+        <p>Chief Architect &mdash; commercial strategy, government engagement and global buyer relationships. B.Arch, BUET · Master's in Heritage &amp; Environmental Design, Kyushu University. Founded REVIVAL from research at Kyushu University in 2018, inspired by Professor Muhammad Yunus's Three Zeros framework.</p>
       </div>
+      <div class="lead-card">
+        <div class="initial">YQ</div>
+        <div class="role">Chairman, Besting Ltd</div>
+        <h5>Yahua Qi</h5>
+        <p>Chief Operating Partner &mdash; manufacturing scale, production execution and factory commissioning.</p>
+      </div>
+      <div class="lead-card">
+        <div class="initial">ZC</div>
+        <div class="role">President, REVIVAL Group Japan</div>
+        <h5>Zulfiquar Ali Chowdhury</h5>
+        <p>Institutional Execution &amp; Japan Operations Lead &mdash; Japanese corporate execution discipline and institutional investor readiness. Former Country Director, Tekken Corporation Japan.</p>
+      </div>
+      <div class="lead-card">
+        <div class="initial">MH</div>
+        <div class="role">Regulatory &amp; Government Relations</div>
+        <h5>Mojibul Haque</h5>
+        <p>Regulatory &amp; Government Relations Lead. Former Additional Secretary, Government of Bangladesh.</p>
+      </div>
+      <div class="lead-card">
+        <div class="initial">SL</div>
+        <div class="role">COO, REVIVAL Group Japan</div>
+        <h5>Sunny Lu</h5>
+        <p>Trade finance and capital structuring support.</p>
+      </div>
+      <div class="lead-card">
+        <div class="initial">RY</div>
+        <div class="role">Creative Director, REVIVAL Group</div>
+        <h5>Ryo Yoshihashi (Kira)</h5>
+        <p>Brand Creative Director &mdash; Japan &amp; Global Collections. Former Monokuri.</p>
+      </div>
+    </div>
+
+    <div class="sub-head reveal">Senior Advisory &amp; Execution Team</div>
+    <div class="advisor-grid reveal">
+      <div><h6>Alauddin Mahmood</h6><div class="aff">Executive Director, the textile complex</div><div class="dut">Industrial Infrastructure &amp; Operations Director</div></div>
+      <div><h6>Khalid Shahriar</h6><div class="aff">Head of Compliance &amp; HR, the textile complex</div><div class="dut">Chief Compliance &amp; ESG Officer</div></div>
+      <div><h6>M.S. Khan Shakil</h6><div class="aff">Executive Director Logistics, the textile complex</div><div class="dut">Export Logistics &amp; Trade Execution Director</div></div>
+      <div><h6>Azad Hossain</h6><div class="aff">Managing Director, STYLE Buying House (CTG)</div><div class="dut">Quality Assurance &amp; Global Buyer Execution Lead</div></div>
+      <div><h6>Humayun Kabir</h6><div class="aff">Former Supply Chain Director, British American Tobacco</div><div class="dut">Chief Supply Chain Architect</div></div>
+      <div><h6>Mehdi Ali</h6><div class="aff">Director, FBCCI · Former President, Bangladesh Cotton Association</div><div class="dut">Raw Material Supply &amp; Commodity Strategy Lead</div></div>
+      <div><h6>Rokon Uddin Khan</h6><div class="aff">Former Senior Manager, MTB &amp; IFIC Bank</div><div class="dut">Trade Finance &amp; Banking Execution Advisor</div></div>
+      <div><h6>Munir Hossain</h6><div class="aff">CMO USA, REVIVAL Global Ltd · Former Walmart, Disney</div><div class="dut">US Market Growth &amp; Retail Expansion Lead</div></div>
+      <div><h6>Eiji Kagawa</h6><div class="aff">Director, Kagawa Wholesale Japan</div><div class="dut">Japan Market Entry &amp; Retail Integration Lead</div></div>
+      <div><h6>Masaharu Okada</h6><div class="aff">Former NTT Legal · NYU Attorney</div><div class="dut">Legal &amp; Institutional Structuring Lead</div></div>
+      <div><h6>Jeremy Davis</h6><div class="aff">Former Chief of Party, USAID</div><div class="dut">ESG &amp; Sustainable Industrial Systems Lead</div></div>
+      <div><h6>Tokushu Inamura</h6><div class="aff">Assistant Professor, Kyushu University</div><div class="dut">Strategic Innovation Advisor &mdash; former IDEO, Finnair, Danish Design Council</div></div>
     </div>
 
     <div class="track-list reveal" style="margin-top:52px;">
       <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Independent audit &amp; financial transparency</strong><br>An independent third-party audit framework governing how funds are deployed and reported.</p></div>
       <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Government-level facilitation</strong><br>Investment-authority approval treating industrial reactivation as a national priority.</p></div>
       <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Academic origin</strong><br>Founded out of research at Kyushu University, on Professor Muhammad Yunus's Three Zeros framework.</p></div>
-      <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Executive team</strong><br>Chairman, CIO, CSO and COO appointed. Full profiles published shortly.</p></div>
+      <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Executive team</strong><br>Leadership appointed, with a senior advisory and execution bench of twelve across Bangladesh, Japan, China and the United States.</p></div>
     </div>
   </div>
 </section>
