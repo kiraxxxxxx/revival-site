@@ -1,8 +1,12 @@
 <!DOCTYPE html>
+<!-- LAUNCH BUILD — facility owner's name withheld until the NOC and related
+     formalities are in place (Faisal, 2026-09-06). The named version is kept
+     at with-facility-name.html and can be swapped in on the day. -->
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="robots" content="noindex,nofollow"><!-- PREVIEW ONLY: remove before public launch -->
+<meta name="robots" content="noindex,nofollow"><!-- PREVIEW ONLY -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>REVIVAL — Restoring Industry. Restoring Livelihoods. Restoring the Planet.</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -127,8 +131,7 @@
   .dark .track-list div:nth-last-child(-n+1){border-bottom-color:rgba(243,238,226,.16);}
 
   /* leadership */
-  .lead-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:rgba(27,26,23,.1);border:1px solid rgba(27,26,23,.1);margin-top:46px;}
-  @media(max-width:900px){.lead-grid{grid-template-columns:repeat(2,1fr);}}
+  .lead-grid{display:grid;grid-template-columns:minmax(0,430px);gap:1px;background:rgba(27,26,23,.1);border:1px solid rgba(27,26,23,.1);margin-top:46px;}
   @media(max-width:520px){.lead-grid{grid-template-columns:1fr;}}
   .lead-card{background:var(--washi);padding:28px 22px;}
   .lead-card .initial{width:48px;height:48px;border-radius:50%;background:var(--sumi);color:var(--washi);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:17px;margin-bottom:16px;}
@@ -223,6 +226,15 @@
   .foot-brand span{font-family:var(--serif);font-size:16px;color:var(--washi);}
 
 
+  /* three-country grid */
+  .tri-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(27,26,23,.12);border:1px solid rgba(27,26,23,.12);margin-top:46px;}
+  @media(max-width:820px){.tri-grid{grid-template-columns:1fr;}}
+  .tri{background:var(--washi);padding:30px 26px;}
+  .tri .cty{display:block;font-family:var(--serif);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--rust);margin-bottom:12px;}
+  .tri h4{font-size:17px;margin-bottom:10px;line-height:1.35;}
+  .tri p{font-size:13.5px;color:var(--ink-60);font-weight:300;}
+  .dark .tri{background:var(--ai-deep);} .dark .tri p{color:rgba(243,238,226,.66);}
+
   /* figures (added 2026-09-06) */
   .figure{margin-top:46px;}
   .figure img{width:100%;display:block;}
@@ -283,7 +295,7 @@
   <div class="hero-inner">
     <div class="eyebrow"><span class="num">序</span> An Industrial, Investment &amp; Sustainability Platform — Bangladesh × Japan</div>
     <h1>Restoring Industry.<br>Restoring Livelihoods.<br>Restoring the Planet.</h1>
-    <p class="hero-sub">REVIVAL is not waiting for an industry to recover — REVIVAL is building the mechanism through which industries recover. We connect capital, operators, buyers and government around distressed industrial assets, starting with the reopening of Bangladesh's largest garment complex, Beximco.</p>
+    <p class="hero-sub">REVIVAL is not waiting for an industry to recover — REVIVAL is building the mechanism through which industries recover. We connect capital, operators, buyers and government around distressed industrial assets, starting with the reopening of one of Bangladesh's largest vertically integrated garment complexes.</p>
     <div class="hero-actions">
       <a href="#buyers" class="btn">Source From Bangladesh →</a>
       <a href="#capital" class="btn-line">View the Investment Case</a>
@@ -318,11 +330,11 @@
     <div class="section-tag reveal">01 — REVIVAL</div>
     <div class="eyebrow reveal"><span class="num">壱</span> Who We Are</div>
     <h2 class="lede reveal">A marketplace and execution platform for industrial revival — not a single factory, and not a single deal.</h2>
-    <p class="body-copy reveal" style="margin-top:20px;">Where a distressed but fundamentally valuable industrial asset exists, REVIVAL brings together the capital, operator, buyer and strategic partners required to return it to productive use. Beximco is the first large-scale demonstration of that model — the proof of concept, not the definition of what REVIVAL is.</p>
+    <p class="body-copy reveal" style="margin-top:20px;">Where a distressed but fundamentally valuable industrial asset exists, REVIVAL brings together the capital, operator, buyer and strategic partners required to return it to productive use. Our first initiative is the large-scale demonstration of that model — the proof of concept, not the definition of what REVIVAL is.</p>
 
     <div class="callout reveal">
-      <h4>REVIVAL is not simply the "front face" of Beximco</h4>
-      <p>REVIVAL is an independent platform and fashion brand bringing together international/NRB capital, government facilitation, financial institutions, international operators, Japanese partners, global buyers and local industrial assets — with REVIVAL's own management and commercial platform coordinating all of it. If the Beximco initiative succeeds, the same model is designed to be repeated across other distressed industrial assets in Bangladesh.</p>
+      <h4>REVIVAL is not simply the "front face" of a single industrial group</h4>
+      <p>REVIVAL is an independent platform and fashion brand bringing together international/NRB capital, government facilitation, financial institutions, international operators, Japanese partners, global buyers and local industrial assets — with REVIVAL's own management and commercial platform coordinating all of it. If this first initiative succeeds, the same model is designed to be repeated across other distressed industrial assets in Bangladesh.</p>
     </div>
 
     <div class="hub-wrap">
@@ -357,6 +369,26 @@
       </div>
     </div>
 
+    <h3 class="lede reveal" style="font-size:clamp(20px,2.2vw,27px);margin-top:70px;">Three countries, one operating platform.</h3>
+    <p class="body-copy reveal" style="margin-top:16px;">REVIVAL is not a single-country operation. The platform is built on three capabilities that rarely sit together in one company — and the combination is what makes the model work.</p>
+    <div class="tri-grid reveal">
+      <div class="tri">
+        <span class="cty">Japan</span>
+        <h4>Design and quality philosophy</h4>
+        <p>The discipline, the standards and the long-term thinking Japanese buyers require. REVIVAL was founded here, out of research at Kyushu University, and is registered in Fukuoka.</p>
+      </div>
+      <div class="tri">
+        <span class="cty">Bangladesh</span>
+        <h4>Manufacturing and craftsmanship</h4>
+        <p>Industrial-scale garment production alongside living craft traditions — Nakshi Kantha, Jamdani, Khadi — that no other production country can offer at the same time.</p>
+      </div>
+      <div class="tri">
+        <span class="cty">China</span>
+        <h4>Manufacturing and operational expertise</h4>
+        <p>Production engineering and operational discipline, brought into the platform through REVIVAL's joint venture with Besting.</p>
+      </div>
+    </div>
+
     <div class="callout reveal" style="border-color:var(--gold);background:rgba(182,147,90,.05);">
       <h4 style="color:var(--gold)">REVIVAL is also a buyer, not only a platform</h4>
       <p>Where commercially appropriate, REVIVAL acts as a brand and buyer in its own right — placing orders into revived facilities and creating the demand that makes a reopening sustainable, rather than waiting for third-party orders to appear.</p>
@@ -377,15 +409,15 @@
   <div class="wrap">
     <div class="section-tag reveal">02 — INDUSTRIAL CAPABILITY</div>
     <div class="eyebrow reveal"><span class="num">弐</span> The Industrial Revival Initiative</div>
-    <h2 class="lede reveal">Beximco: 320 acres, twelve garment units, and the first proof that this model works.</h2>
-    <p class="body-copy reveal" style="margin-top:20px;">Bangladesh's largest vertically integrated garment complex — built to supply H&amp;M, Zara, Marks &amp; Spencer, PVH, Next and Target — stalled in the early 2020s under pandemic demand shocks and frozen trade finance. REVIVAL's reopening plan is the first large-scale demonstration of the platform model described above.</p>
+    <h2 class="lede reveal">320 acres, twelve garment units, and the first proof that this model works.</h2>
+    <p class="body-copy reveal" style="margin-top:20px;">One of Bangladesh's largest vertically integrated garment complexes — built to supply the world's best-known apparel brands — stalled in the early 2020s under pandemic demand shocks and frozen trade finance. REVIVAL's reopening plan is the first large-scale demonstration of the platform model described above.</p>
 
     <div class="formula reveal">
       <span class="node">Capital</span><span class="op">+</span><span class="node">Management</span><span class="op">+</span><span class="node">Manufacturing</span><span class="op">+</span><span class="node">Buyers</span><span class="op">+</span><span class="node">Technology</span><span class="op">+</span><span class="node">Sustainability</span><span class="arrow">→</span><span class="node" style="border-color:var(--gold); color:var(--gold);">Revived Industry</span>
     </div>
 
     <div class="scale-grid reveal">
-      <div class="cell"><p>45,000+ livelihoods potentially restored</p></div>
+      <div class="cell"><p>45,000+ livelihoods targeted for restoration</p></div>
       <div class="cell"><p>Large-scale export capacity reactivated</p></div>
       <div class="cell"><p>International capital &amp; expertise mobilised</p></div>
       <div class="cell"><p>Major productive assets returned to operation</p></div>
@@ -406,13 +438,18 @@
       <div><span class="mk">→</span><p>International buyer experience across major global apparel brands</p></div>
       <div><span class="mk">→</span><p>Existing products and completed production runs</p></div>
       <div><span class="mk">→</span><p>In-house design and product development capability</p></div>
-      <div><span class="mk">→</span><p>Reference rights within Beximco's established industrial ecosystem</p></div>
+      <div><span class="mk">→</span><p>Reference rights within an established Bangladeshi industrial ecosystem</p></div>
       <div><span class="mk">→</span><p>International market relationships built over years of sourcing work</p></div>
+    </div>
+
+    <div class="callout reveal" style="border-color:var(--gold);background:rgba(182,147,90,.06);">
+      <h4 style="color:var(--gold)">Own production capacity in development</h4>
+      <p>REVIVAL and Besting have secured land at the Chinese EPZ in Anwara, Chittagong, with a further site planned at the Japanese EPZ. REVIVAL is not only reactivating assets it leases — it is building capacity it will own and operate in its own right.</p>
     </div>
 
     <figure class="figure reveal">
       <img class="band" src="assets/img/factory-floor.jpg" alt="Production floor at a partner facility in Bangladesh">
-      <figcaption>Production floor — partner facility, Bangladesh. The facility specifications above describe the Beximco industrial complex; REVIVAL's role is to lease it, operate it and fill it with orders.</figcaption>
+      <figcaption>Production floor — partner facility, Bangladesh. The facility specifications above describe the industrial complex under reactivation; REVIVAL's role is to lease it, operate it and fill it with orders.</figcaption>
     </figure>
     <div class="fig-grid fig-3 reveal">
       <div class="fig-cell"><img src="assets/img/factory-worker-1.jpg" alt=""><div class="cap">Pattern and cutting work on the floor</div></div>
@@ -440,10 +477,13 @@
         <h5>Huda Mohammed Faisal</h5>
         <p>B.Arch, BUET · Master's in Heritage &amp; Environmental Design, Kyushu University. Founded REVIVAL from research at Kyushu University in 2018, inspired by Professor Muhammad Yunus's Three Zeros framework.</p>
       </div>
-      <div class="lead-card pending"><div class="initial">&mdash;</div><div class="role">Chairman</div><h5>Profile in preparation</h5><p>Biography to be published.</p></div>
-      <div class="lead-card pending"><div class="initial">&mdash;</div><div class="role">CIO</div><h5>Profile in preparation</h5><p>Biography to be published.</p></div>
-      <div class="lead-card pending"><div class="initial">&mdash;</div><div class="role">CSO</div><h5>Profile in preparation</h5><p>Biography to be published.</p></div>
-      <div class="lead-card pending"><div class="initial">&mdash;</div><div class="role">COO</div><h5>Profile in preparation</h5><p>Biography to be published.</p></div>
+    </div>
+
+    <div class="track-list reveal" style="margin-top:52px;">
+      <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Independent audit &amp; financial transparency</strong><br>EY / Deloitte framework governing how funds are deployed and reported.</p></div>
+      <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Government-level facilitation</strong><br>Investment-authority approval treating industrial reactivation as a national priority.</p></div>
+      <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Academic origin</strong><br>Founded out of research at Kyushu University, on Professor Muhammad Yunus's Three Zeros framework.</p></div>
+      <div><span class="mk">&rarr;</span><p><strong style="font-weight:500;color:var(--sumi)">Executive team</strong><br>Chairman, CIO, CSO and COO appointed. Full profiles published shortly.</p></div>
     </div>
   </div>
 </section>
@@ -462,7 +502,7 @@
       <div class="tier confirmed">
         <div class="tier-label">Confirmed Partners</div>
         <ul>
-          <li>Besting Ltd.<span>Garment manufacturing operating partner in Bangladesh</span></li>
+          <li>Besting Ltd.<span>Joint venture partner &mdash; manufacturing and operational capability</span></li>
         </ul>
       </div>
       <div class="tier strategic">
@@ -493,13 +533,13 @@
     <div class="section-tag reveal">05 — BUYERS</div>
     <div class="eyebrow reveal"><span class="num">伍</span> Products, Brands &amp; Route to Market</div>
     <h2 class="lede reveal">REVIVAL can become a reliable platform through which you source from Bangladesh.</h2>
-    <p class="body-copy reveal" style="margin-top:20px;">Beximco's own client history already includes the brands your buyers benchmark against — H&amp;M, Zara/Inditex, Marks &amp; Spencer, Target, PVH and Next. REVIVAL's current focus is on converting that heritage into active, traceable OEM orders.</p>
+    <p class="body-copy reveal" style="margin-top:20px;">The complex's own client history already includes the brands your buyers benchmark against. REVIVAL's current focus is on converting that heritage into active, traceable OEM orders.</p>
 
     <div class="tier-grid reveal">
       <div class="tier confirmed">
         <div class="tier-label">Track Record</div>
         <ul>
-          <li>H&amp;M, Zara / Inditex, M&amp;S, Target, PVH, Next<span>Historical Beximco production clients</span></li>
+          <li>Global apparel brands across Europe, the US and Japan<span>Historical production clients of the complex</span></li>
         </ul>
       </div>
       <div class="tier strategic">
@@ -513,8 +553,8 @@
         <ul>
           <li>GUESS<span>Initial order-focus discussion</span></li>
           <li>MUJI (via ITOCHU)<span>Potential premium Japanese buyer introduction</span></li>
-          <li>Takashimaya<span>Collaboration &amp; retail opportunity under discussion</span></li>
-          <li>Isetan<span>Retail stakeholder relationship under discussion</span></li>
+          <li>Takashimaya<span>Retail collaboration opportunity &mdash; exploratory, not a confirmed order</span></li>
+          <li>ISETAN<span>Retail collaboration opportunity &mdash; exploratory, not a confirmed order</span></li>
           <li>Kagawa Wholesale Office network<span>~1,000-store distribution opportunity, pending validation</span></li>
         </ul>
       </div>
@@ -570,7 +610,7 @@
   <div class="wrap">
     <div class="section-tag reveal">07 — SUSTAINABILITY</div>
     <div class="eyebrow reveal"><span class="num">七</span> Circular Legacy — the Differentiator</div>
-    <h2 class="lede reveal">The Beximco ecosystem already designs for major international brands. REVIVAL connects that capability to a circular, traceable philosophy.</h2>
+    <h2 class="lede reveal">The industrial ecosystem behind REVIVAL already designs for major international brands. REVIVAL connects that capability to a circular, traceable philosophy.</h2>
 
     <div class="zeros reveal">
       <div class="z"><div class="n">01</div><h4>Zero Poverty</h4><p>Fair-trade contracts and Fabric Credit payments replace piece-rate survival wages.</p></div>
@@ -582,9 +622,9 @@
       <div class="brand-panel ink">
         <span class="jp">記憶を織る</span>
         <h3>KUROHI Series</h3>
-        <p>REVIVAL's runway-facing collection — Kioku Ori, "the art of weaving memory" — built from recycled denim and Nakshi Kantha embroidery, staged at New York Fashion Week with a second stage planned for Tokyo.</p>
-        <div class="spec-row"><span>Debut</span><span>NYFW, Gotham Hall</span></div>
-        <div class="spec-row"><span>Next stage</span><span>Tokyo Fashion Week</span></div>
+        <p>REVIVAL's runway-facing collection — Kioku Ori, "the art of weaving memory" — built from recycled denim and Nakshi Kantha embroidery, developed for the international runway platforms REVIVAL is targeting.</p>
+        <div class="spec-row"><span>Target platforms</span><span>New York &amp; Tokyo Fashion Week</span></div>
+        <div class="spec-row"><span>Status</span><span>In preparation</span></div>
       </div>
       <div class="brand-panel">
         <span class="jp">REVIVAL Jeans</span>
@@ -596,7 +636,7 @@
     </div>
 
     <div class="narrative-box reveal">
-      <p>Our origin fiction, written for the Social Fiction Design Competition's "World of Three Zeros," imagines Dhaka in 2050: a river runs clear again, and Fabric Credits have become a circular currency. It's a narrative framework, not a financial projection — the underlying instrument, Fabric Credit, is a real, verifiable unit tied to diverted textile waste, structured for corporate Scope 3 reporting. Potential partners under exploration include Toyota and Uniqlo.</p>
+      <p>Our origin fiction, written for the Social Fiction Design Competition's "World of Three Zeros," imagines Dhaka in 2050: a river runs clear again, and Fabric Credits have become a circular currency. It's a narrative framework, not a financial projection — the underlying instrument, Fabric Credit, is a real, verifiable unit tied to diverted textile waste, structured for corporate Scope 3 reporting — the kind of instrument Japanese manufacturers and retailers increasingly need for their own reporting.</p>
       <cite>REVIVAL: The City That Wore Its Memory — Social Business Fiction, 2026</cite>
     </div>
 
@@ -642,10 +682,10 @@
     <div class="eyebrow reveal"><span class="num">九</span> What This Model Restores, at Scale</div>
     <h2 class="lede reveal">Bangladesh's productive capacity is open for business again.</h2>
     <div class="impact-grid reveal">
-      <div class="cell"><strong>45,000+</strong><span>Livelihoods potentially restored</span></div>
+      <div class="cell"><strong>45,000+</strong><span>Livelihoods targeted for restoration</span></div>
       <div class="cell"><strong>320 ac</strong><span>Flagship facility under reactivation</span></div>
       <div class="cell"><strong>500,000</strong><span>Garments producible daily, at full capacity</span></div>
-      <div class="cell"><strong>2</strong><span>Runway stages — New York, then Tokyo</span></div>
+      <div class="cell"><strong>3</strong><span>Countries in one operating platform</span></div>
     </div>
     <p class="body-copy reveal" style="margin-top:40px;">REVIVAL intends to take this story beyond Bangladesh — engaging the international fashion, manufacturing and investment community, and participating in industry events around the Tokyo and New York fashion ecosystems.</p>
     <div class="media-row reveal">
